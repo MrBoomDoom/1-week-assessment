@@ -50,12 +50,20 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+let totalAcres = 0
+for (let i = 0; i < fujiAcres.length && galaAcres.length && pinkAcres.length; i++){
+    totalAcres += fujiAcres[i] 
+    totalAcres += galaAcres[i]
+    totalAcres += pinkAcres[i]
+    console.log(`Total acres is ${totalAcres}`)
 
-
-
-
+}
+// let sum = array.reduce(function(a, b){
+//     return a + b;
 
 // PROBLEM 2
+
+
 
 /*
     Using `totalAcres`, calculate the average 
@@ -69,9 +77,13 @@ const pinkPrice = .55
 
 // CODE HERE
 
+let averageDailyAcres = 0
 
-
-
+for (var number of fujiAcres && galaAcres && pinkAcres) {
+    averageDailyAcres += number;
+}
+average = averageDailyAcres / fujiAcres.length && galaAcres.length && pinkAcres.length;
+console.log(average)
 
 // PROBLEM 3
 
@@ -107,6 +119,16 @@ let days = 0
 
 // CODE HERE
 
+
+
+// while (acresLeft < 10){
+//     acresLeft++;
+//     if (acresLeft -= 7){
+//         break;
+//     }
+//     console.log(acresLeft);
+// }
+// console.log(acresLeft)
 
 
 // PROBLEM 4
